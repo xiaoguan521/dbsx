@@ -1,0 +1,95 @@
+# =================================
+# 等保三项文档项目 .gitignore
+# =================================
+
+# 临时文件和缓存
+*.tmp
+*.temp
+*~
+.DS_Store
+Thumbs.db
+
+# 编辑器和IDE文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统文件
+desktop.ini
+.DS_Store
+Icon?
+
+# 日志文件
+*.log
+*.out
+
+# 备份文件
+*.bak
+*.backup
+*.orig
+
+# Word临时文件
+~$*.docx
+~$*.doc
+
+# PowerShell执行策略相关
+*.ps1.orig
+
+# 敏感信息文件（如果有）
+secrets/
+*.key
+*.pem
+*.cert
+*.crt
+config.local.*
+
+# 构建输出目录
+build/
+dist/
+output/
+
+# Node.js 相关（如果使用了npm包）
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python 相关（如果有Python脚本）
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# 测试和调试文件
+test_output/
+debug/
+*.test
+
+# 个人配置文件
+.env
+.env.local
+personal_config.*
+
+# 文档模板的个人修改版本（保持原模板，忽略个人修改）
+模板_个人.docx
+template_personal.*
+
+# Mermaid 生成的图片文件（如果有）
+*.mermaid.png
+*.mermaid.svg
+
+# 转换过程中的中间文件
+.pandoc-*
+temp_*
